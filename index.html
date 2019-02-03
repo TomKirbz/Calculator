@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="answerbox">0</div>
+<div class="keys">
+ <div class="row">
+ <div class="cbutton" onclick="clearValue ()">C</div>
+ <div class="abutton" onclick="backSpace ()">←</div>
+ <div class="sbutton" onclick="divideNumber ()">÷</div> 
+     </div>
+ <div class="row">
+ <div class="button7" onclick="inputNumber (this)">7</div>
+ <div class="button8" onclick="inputNumber (this)">8</div>
+ <div class="button9" onclick="inputNumber (this)">9</div>
+ <div class="tbutton" onclick="multiplyNumber ()">x</div>
+    </div>
+ <div class="row">
+    <div class="button4" onclick="inputNumber (this)">4</div>
+    <div class="button5" onclick="inputNumber (this)">5</div>
+    <div class="button6" onclick="inputNumber (this)">6</div>
+    <div class="button-" onclick="subtractNumber ()">-</div>
+   </div>
+ <div class="row">
+    <div class="button1" onclick="inputNumber (this)">1</div>
+    <div class="button2" onclick="inputNumber (this)">2</div>
+    <div class="button3" onclick="inputNumber (this)">3</div>
+    <div class="buttonp" onclick="addNumber ()">+</div>
+   </div>
+ <div class="row">
+    <div class="button0" onclick="inputNumber (this)">0</div>
+    <div class="buttone" onclick="equals ()">=</div> 
+ </div>
+</div>>
+</body>
+</html>
